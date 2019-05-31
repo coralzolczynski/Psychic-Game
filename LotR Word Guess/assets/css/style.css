@@ -1,0 +1,14 @@
+.background {
+    background-color: mediumaquamarine;
+    background-size: auto;
+}
+
+.container {
+    color:darkgreen;
+    font-family: 'Charm', cursive;
+}
+
+.row {
+    margin-top: 50px;
+}
+

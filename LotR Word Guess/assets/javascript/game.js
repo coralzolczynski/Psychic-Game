@@ -67,14 +67,14 @@ function roundComplete() {
 
     if (lettersInChosenWord.toString() === blanksAndSuccesses.toString()) {
         winCounter++;
-        alert("????");
+        alert("You are indeed a friend of the elves");
         document.getElementById("win-counter").innerHTML = winCounter;
         startGame();
     }
 
     else if (numGuesses === 0) {
         lossCounter++;
-        alert("????");
+        alert("Fool");
         document.getElementById("loss-counter").innerHTML = lossCounter;
         startGame();
 
@@ -90,4 +90,4 @@ document.onkeyup = function(event) {
     checkLetters(letterGuessed);
   
     roundComplete();
-  };
+};
